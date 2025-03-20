@@ -1,0 +1,86 @@
+/*  Base    */
+body {
+    color: rgb(50,65,100);
+    background-color: rgb(200, 183, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.central_box {
+    width: 50vw;
+    background-color: antiquewhite;
+    padding: 1em;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100vh;
+    border-radius: 1%;
+}
+
+
+
+
+/*  Images dans les boutons */
+#gruau {
+    background: url('soupe_gruau.jpg'), no-repeat center;
+    background-size: cover;
+}
+#cote_porc {
+    background: url('cote_porc.jpg'), no-repeat center;
+    background-size: cover;
+}
+#pain_beni {
+    background: url('pain_beni.png'), no-repeat center;
+    background-size: cover;
+}
+
+
+
+/*  1ère partie des boutons */
+.misericorde{
+    width: 10em;
+    height: 10em;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    transition-duration: 1s;
+    margin: 0.5em;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.misericorde span {
+    position:absolute;
+    top: 1em;
+    left: 0.3em;
+}
+.misericorde:hover {
+    width: 13em;
+    height: 13em;
+}
+
+
+
+
+/*  2ème partie des boutons */
+.misere {
+    display: inline-block;
+}
+.misere button{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 10em;
+    height: 10em;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    transition-duration: 1s;
+    margin: 0.5em;
+}
+.description {
+    text-align: center;
+    font-weight: bold;
+}
+.misere button:hover {
+    width: 13em;
+    height: 13em;
+}
